@@ -1,0 +1,79 @@
+
+h1{
+	font-family: 'Amatic SC', bold;
+	color: white;
+	font-weight: bold;	
+	text-shadow: 10px 10px 60px black;
+	}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	color: #2E4037;
+}
+
+a{							 	/* Link properties*/
+	text-decoration: none;  	/*removes the underline of the link */
+	color: #E6CC49;	
+}
+
+a:hover{    					/* Link properties*/
+	color: #A69F77;
+}
+
+body {
+	color: #6C5E73;
+	font-size: 22px;
+	font-family: 'Dancing Script';
+	background-image: 
+		url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+		/*background-size: 100% 100%; */
+		background-repeat: no-repeat;
+		background-size: cover;
+	margin: 0px;
+}
+
+p {
+	font-family: 'Dancing Script', cursive; 
+	color:#807E49;
+}
+
+#mainheader {
+	/*background-color: #93BFA9;*/
+	font-size: 70px;
+}
+
+#head1{    			/*classes have priority over set attibutes to direct objects.. 
+					in this case I formatted all P's to have the same font, except for this one*/
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	text-shadow: 1px 1px 60px black;
+}
+#banner{
+	text-align: center;
+	background-image: url("images/banner.jpg");
+	background-size: cover;
+	padding: 150px;
+	color: white;
+	text-shadow: 1px 1px 30px black;
+}
+
+#foot{
+	text-align: right;
+	padding: 50px;
+}
+
+.container-fluid{
+	border: 0px;
+	padding: 0px;
+}
+
+.bilder {
+	background-color: #E6CC49;
+	border-radius: 50%;
+}
+
+.social {
+	color: #42798C;
+}
+
+
